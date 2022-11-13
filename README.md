@@ -1,14 +1,11 @@
-# Redux Toolkit Ornegi
-
-## `Kurulum`
+### Redux Toolkit and Thuk
 
 ```
-npm install veya yarn
-```
-
-## `Kullanilan Kutuphaneler`
+  
+## `What i have used in this project`
 
 - `@reduxjs/toolkit`
+- `for async function middleware(THUNK)`
 - `react-redux`
 - `axios`
 - `react-router-dom`
@@ -16,14 +13,25 @@ npm install veya yarn
 - `@emotion/react`
 - `@emotion/styled`
 
-## `Kullanilacak API`:
+## `API`:
 
 - https://newsapi.org/
-  (Get Key butonuna tiklanarak key alinabilir)
+  (Click to Get button to get apiKey)
 
 - URL:
   const url = `https://newsapi.org/v2/top-headlines?country=tr&apiKey=${API_KEY}`;
+ 
+### To install Redux/Toolkit run this command
 
-## `Kullanilacak Araclar`
+- `npm install @reduxjs/toolkit react-redux` or
+- `yarn add @reduxjs/toolkit react-redux`
 
-- `Redux Dev Tools` : Chrome uzerinde calisan ve global state uzerinde yapilan tum degisikliklerin takip edilmesini saglayan tarayici uzantisidir. Indirmek icin [tiklayiniz.](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=chrome-ntp-icon)`
+### There are 3 steps to implement redux/toolkit in your project
+
+----|
+    app(folder)
+    |---- store.jsx  => configureStore ( reducers )
+    feature(folder)
+    |---- slices    => 
+   
+    
