@@ -9,9 +9,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { clearUser } from '../features/authSlice';
 
 export default function Navbar() {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch(); 
+  //! dispatch ile functionlar çalısır. 
   const navigate = useNavigate();
   const { user } = useSelector((state) => state.auth);
+  //! useSelector ile okuma işlemi yapılır.
   console.log(user);
 
   const handleLogout = () => {
