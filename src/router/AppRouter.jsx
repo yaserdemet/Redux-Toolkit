@@ -1,7 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Navbar from "../components/Navbar";
-import Login from "../pages/Login";
+// import Navbar from "components/Navbar";
+// import Navbar from "@/components"
+import Navbar from "components/Navbar";
+import Login from "pages/Login";
 import PrivateRouter from "./PrivateRouter";
 import News from "../pages/News";
 
