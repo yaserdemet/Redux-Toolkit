@@ -1,16 +1,7 @@
-// {
-//   "compilerOptions": {
-//     "baseUrl": "src",
-//     "paths": {
-//       "@components/*" : ["/components/*"]
-//     }
-//   },
-//   "include": ["src"]
-// }
-
 {
   "compilerOptions": {
     "baseUrl": "./src",
+    "_comment": "this is how can u comment in jsonFile",
     "jsx": "preserve",
     "paths": {
       "@/*": ["./src/*"],
@@ -18,7 +9,6 @@
       "@/pages/*": ["./pages/*"],
       "@/contexts/*": ["./contexts/*"],
       "@/routes/*": ["./routes/*"]
-      
     }
   },
   "exclude": ["node_modules", "build"]
