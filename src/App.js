@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <Provider store={store}>
+      {/* //* Provider ile appimizi sarmalıyouruz. Aynı contextApi deki gibi store attr. ise app de yazdıgımız store u veriyoruz. */}
         <AppRouter />
       </Provider>
     </div>

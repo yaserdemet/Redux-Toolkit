@@ -1,9 +1,25 @@
+// {
+//   "compilerOptions": {
+//     "baseUrl": "src",
+//     "paths": {
+//       "@components/*" : ["/components/*"]
+//     }
+//   },
+//   "include": ["src"]
+// }
+
 {
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": "./src",
+    "jsx": "preserve",
     "paths": {
-      "@components/*" : ["/components/*"]
+      "@/*": ["./src/*"],
+      "@/components/*": ["./components/*"],
+      "@/pages/*": ["./pages/*"],
+      "@/contexts/*": ["./contexts/*"],
+      "@/routes/*": ["./routes/*"]
+      
     }
   },
-  "include": ["src"]
+  "exclude": ["node_modules", "build"]
 }

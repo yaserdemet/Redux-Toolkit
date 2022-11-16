@@ -13,3 +13,6 @@ const store= configureStore({
 })
 
 export default store;
+
+//* configure store u toolkitten import et.
+//! reducer ları birlestirir.
