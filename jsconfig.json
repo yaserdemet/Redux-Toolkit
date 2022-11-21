@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": "./src",
-    "_comment": "this is how can u comment in jsonFile",
+    "comment": "this is how can u comment in jsonFile",
     "jsx": "preserve",
     "paths": {
       "@/*": ["./src/*"],
