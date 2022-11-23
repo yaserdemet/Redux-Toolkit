@@ -3,7 +3,7 @@
 ## `Installation`
 
 ```
-npm install veya yarn
+npm install or yarn install
 ```
 
 ## `Used Library`
@@ -27,8 +27,8 @@ npm install veya yarn
 
 ## `Used Tools`
 
-- `Redux Dev Tools` : Chrome uzerinde calisan ve global state uzerinde yapilan tum degisikliklerin takip edilmesini saglayan tarayici uzantisidir. Indirmek icin [tiklayiniz.](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=chrome-ntp-icon)`
+- `Redux Dev Tools` : You can check state changes in browser. To install [👉click here.](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=chrome-ntp-icon)`
 
 ## `Thunk Middleware`
 
-- `Async işlemleri yönetmek için Redux'ta middleware e ihtiyaç duyarız. Bunun için Redux Toolkit ile default gelen middleware Thunk kullanılacak.`
+- `To manage async process like get data from Api, a middleware is needed. In this project, Thunk which is default middleware of Redux Toolkit is used`
