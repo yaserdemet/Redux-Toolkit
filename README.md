@@ -1,12 +1,12 @@
-# Redux Toolkit and Thunk
+### Redux Toolkit and Thunk Middleware
 
-## `Kurulum`
+## `Installation`
 
 ```
 npm install veya yarn
 ```
 
-## `Kullanilan Kutuphaneler`
+## `Used Library`
 
 - `@reduxjs/toolkit`
 - `react-redux`
@@ -17,15 +17,15 @@ npm install veya yarn
 - `@emotion/react`
 - `@emotion/styled`
 
-## `Kullanilacak API`:
+## `Used API`:
 
 - https://newsapi.org/
-  (Get Key butonuna tiklanarak key alinabilir)
+  (Click Get button to get ApiKey)
 
 - URL:
   const url = `https://newsapi.org/v2/top-headlines?country=tr&apiKey=${API_KEY}`;
 
-## `Kullanilacak Araclar`
+## `Used Tools`
 
 - `Redux Dev Tools` : Chrome uzerinde calisan ve global state uzerinde yapilan tum degisikliklerin takip edilmesini saglayan tarayici uzantisidir. Indirmek icin [tiklayiniz.](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=chrome-ntp-icon)`
 
